@@ -1,0 +1,276 @@
+.login{
+    input {
+        margin: 15px 10px !important;
+        width: 40% !important;  
+    }
+    .logoReg {
+        height: 35% !important;
+        width: 35% !important;
+        margin-top: 10vh !important;
+        margin-right: 5vw !important;
+    }
+    textarea {
+        width: 83% !important;
+    }
+}
+.row{   
+    justify-content: center;        
+    
+    h3{
+        padding-top: 5vh;
+        padding-bottom: 3vh;
+        font-weight: 300;
+        color: #616060;
+    }
+}  
+
+
+.login {
+    height: 80vh;
+    background-color: transparent;
+    .login2 {
+        margin-top: 9vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        .login3 {
+            margin-top: 3vh;
+            border: 2px solid white;
+            box-shadow: 1px 10px 30px 0px gray;
+            width: 50%;
+            padding: 4vw;
+            border-radius: 10px;
+            background-color: rgba(240, 240, 240, 0.915); 
+        }
+    }
+    input {
+        background-color: rgb(221,233,180);
+        margin: 10px;
+        border-radius: 10px;
+        border: solid 1px gray;
+        padding: 5px;
+        margin: 30px 15px;
+        
+    }
+    ::placeholder {
+        padding-left: 10px;
+    }
+    textarea {
+        width: 80%;
+        background-color: RGB(221,233,180);
+        margin: 10px;
+        border-radius: 10px;
+        border: solid 1px gray;
+        padding: 5px;
+        resize: none;
+    }
+    .imgAdminRegFarm {
+        width: 83% !important;
+    }
+    button {
+        margin: 10px;
+        padding: 8px 25px 8px 25px;
+        text-align: center;
+        border-radius: 11px;
+        // width: 35%;
+       
+        background: -moz-linear-gradient(top, #FA9B1D 0%, #F7991D 64%, #CC7E18 100%);
+        background: -webkit-linear-gradient(top, #FA9B1D 0%, #F7991D 64%, #CC7E18 100%);
+        background: linear-gradient(to bottom, #FA9B1D 0%, #F7991D 64%, #CC7E18 100%);
+        border: 1px solid RGB(250,155,29);
+        transition: all 0.25s ease;
+
+    }
+    button:hover {
+        border: 1px solid gray;
+        background: #6C9628;
+        background: -moz-linear-gradient(top, #6C9628 0%, #79A82D 64%, #88BC32 100%);
+        background: -webkit-linear-gradient(top, #6C9628 0%, #79A82D 64%, #88BC32 100%);
+        background: linear-gradient(to bottom, #6C9628 0%, #79A82D 64%, #88BC32 100%);
+        box-shadow: 0px 0px 12px 2px gray;
+        color: white;
+    }
+    p {
+        color: red;
+    }
+    h1 {
+        font-weight: lighter;
+        font-size: 3vw;
+    }
+    hr {
+       border: 0 none rgb(108, 150, 40);
+       border-top: 1px solid rgb(108, 150, 40);
+       background-color: rgb(108, 150, 40);
+       opacity: 0.4;
+
+    }
+    span {
+        color: rgb(158, 158, 158);
+        text-decoration: underline rgb(158, 158, 158);
+        
+    }
+    span:hover {
+        color: rgb(99, 99, 99);
+        
+    }
+}
+
+@media (max-width: 450px) {
+    .row{   
+        justify-content: center;        
+        
+        h3{
+            padding-top: 3vh;
+            padding-bottom: 1vh;
+            font-weight: 300;
+            color: #616060;
+        }
+    }  
+    
+    .login {
+        .login2 {
+            .login3 {
+                width: 90%;
+                margin-top: 5% !important;
+            }
+        }
+        input {
+            width: 85%;
+            margin: 20px 0;
+        }
+        h1  {
+            margin: 30px 0;
+            font-size: 12vw;
+        }
+        button {
+            margin: 35px 0;
+            width: 85%;
+            border-radius: 10px;
+            padding: 5px;
+        }
+    }
+    .login {
+        .login2.register2 {
+            .login3.register3 {
+                width: 90%;
+                margin-top: 5%;
+            }
+        }
+        input {
+            width: 85% !important;
+            
+        }
+        .logoReg {
+            margin-top: 2vh !important ;
+            width: 85% !important;
+        }
+        button {
+            margin: 15px 0;
+            
+        }
+    }
+ 
+}
+
+@media (min-width: 451px) and (max-width: 850px) {
+    .login {
+        .login2 {
+            .login3 {
+                width: 90%;
+                margin-top: 5% !important;
+            }
+        }
+        .logoLog {
+            margin-top: 10vh !important;
+            width: 80% !important;
+        }
+        input {
+            width: 85%;
+            margin: 20px 0;
+        }
+        h1  {
+            margin: 30px 0;
+            font-size: 8vw;
+        }
+        button {
+            margin: 35px 0;
+            width: 85%;
+            border-radius: 10px;
+            padding: 5px;
+        }
+    }
+
+    .login {
+        .login2.register2 {
+            .login3.register3 {
+                width: 90%;
+                margin-top: 5%;
+            }
+        }
+        input {
+            width: 70% !important;
+            
+        }
+        textarea {
+            width: 70% !important;
+        }
+        .logoReg {
+            margin-top: 4vh !important ;
+            width: 75% !important;
+        }
+        button {
+            margin: 15px 0;
+            width: 35%;
+            
+        }
+    }
+    .botonRegistroCreateFarm {
+        margin-right: 2.5vw !important;
+    }
+   
+  }
+
+  
+@media (min-width: 851px) and (max-width: 1024px) {
+    .login {
+        .login2 {
+            .login3 {
+                width: 80%;
+                margin-top: 2%;
+                padding: 1vw;
+            }
+        }
+        img {
+            margin-top: 5vh;
+            width: 60%;
+        }
+        input {
+            width: 85%;
+            margin: 20px 0;
+        }
+        h1  {
+            margin: 30px 0;
+            font-size: 6vw;
+        }
+        button {
+            margin: 35px 0;
+            width: 35%;
+            border-radius: 10px;
+            padding: 5px;
+        }
+    }
+    .login {
+        .login2.register2 {
+            .logoReg {
+                margin-top: 2vh !important ;
+                width: 50% !important;
+            }
+            button {
+                width: 30% !important;
+                margin-left: 60px;
+                
+            }
+        }
+    
+    }
+}

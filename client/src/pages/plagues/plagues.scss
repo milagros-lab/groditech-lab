@@ -1,0 +1,124 @@
+.botonAllPlagues {
+    padding: 10px 30px 10px 30px;
+    text-align: center;
+    border-radius: 11px !important;
+    width: 22%;
+    background: -moz-linear-gradient(top, #FA9B1D 0%, #F7991D 64%, #CC7E18 100%);
+    background: -webkit-linear-gradient(top, #FA9B1D 0%, #F7991D 64%, #CC7E18 100%);
+    background: linear-gradient(to bottom, #FA9B1D 0%, #F7991D 64%, #CC7E18 100%);
+    border: 1px solid RGB(250,155,29);
+    transition: all 0.25s ease;
+    margin-bottom: 3vh;
+}
+.botonAllPlaguesDes {
+    padding: 10px 30px 10px 30px;
+    text-align: center;
+    border-radius: 11px !important;
+    background: rgba(206, 25, 25, 0.699) !important;
+    transition: all 0.25s ease;
+    margin-bottom: 3vh;
+    width: 22%;
+}
+
+.plagues{
+    border: 1px solid rgb(214, 205, 205) ;
+    margin: 3vw 0;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 1px 10px 30px 0px gray;
+    width: 80%;
+    margin-left: 10vw !important;
+    h2  {
+        background-color: rgb(214, 205, 205);
+        padding: 20px;
+        border-top-left-radius: 20px ;
+        border-top-right-radius: 20px;
+    }
+    p {
+        padding: 20px;
+    }
+    .boton2 {
+        width: 22%;
+        margin: 15px;
+        padding: 10px 30px 10px 30px;
+       
+    }
+}
+
+.botonesVolverCrearPlaga{
+    margin-top: 40px;
+        .boton1 {
+        width: 20%;
+        margin: 10px;  
+        margin: 0 10px;
+    }
+}
+
+.editPlague {
+    border: 1px solid rgb(214, 205, 205) ;
+    // width: 40%;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 1px 10px 30px 0px gray;
+    margin: 5vw 30vw;
+    .editPlague2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 1px ;
+        padding: 30px;
+        label {
+            padding: 20px;
+            font-weight: bold;
+        }
+        button {
+            margin-top: 30px;
+        }
+    }
+}
+
+
+@media (max-width: 450px) {
+    .botonesVolverCrearPlaga{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .boton1{
+            width: 80vw !important;
+            margin: 10px 0;
+        }
+    }
+    .botonesEditarHabilitar{
+        display: flex;
+        flex-direction: column;
+        align-items: center !important;
+       
+        .boton2{
+            width: 50%;
+            margin-bottom: 5vw;
+            padding: 8px 25px 8px 25px;
+        }
+        .botonAllPlagues{
+            width: 50%;
+            margin-bottom: 5vw;
+            padding: 8px 25px 8px 25px;
+        }
+        .botonAllPlaguesDes {
+            width: 50%;
+            margin-bottom: 5vw;
+            padding: 8px 25px 8px 25px;
+        }
+    }   
+   
+}
+
+@media (min-width: 451px) and (max-width: 850px) {
+    .botonesVolverCrearPlaga {
+        .boton1 {
+            width: 35% !important;
+            margin: 0 20px;
+        }
+    } 
+}

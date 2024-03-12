@@ -1,0 +1,108 @@
+.formPlague3 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 8vh;
+    background-color: rgba(240, 227, 227, 0.9);
+    border-radius: 10px;
+    width: 60%;
+    margin-left: 43vh;
+    padding: 5vw;
+    align-items: center;
+    box-shadow: 1px 10px 30px 0px grey;
+    margin-bottom: 3vh !important;
+}
+.enunPlaga2 {
+    justify-content: center;        
+    
+    h3{
+        padding-top: 5vh;
+        font-weight: 300;
+        color: #616060;
+    }
+}  
+
+.labDesc2 {
+    margin-left: -32vw;
+    margin-top: 5vh;
+}
+.labName2 {
+    margin-right: 33.5vw;
+}
+.inpNamePlague2 {
+    background-color: rgb(221, 233, 180);
+    border-radius: 10px;
+    border: solid 1px gray;
+    padding: 5px;
+    width: 89%;
+}
+.inpDescPlague2 {
+    background-color: rgb(221, 233, 180);
+    border-radius: 10px;
+    border: solid 1px gray;
+    padding: 5px;
+}
+.botonDivPlague {
+    margin-top: 2vh;
+    width: 25vw;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 19vw;
+}
+.botonPlague {
+    margin-top: 2vw !important;
+    width: 20%;
+}
+@media (min-width: 451px) and (max-width: 850px) {
+    .formPlague3 {
+        margin-left: 7.5vh !important;
+        width: 80%
+    }
+    .inpDescPlague2 {
+        width: 65vw;
+    }
+    .labDesc2 {
+        margin-left: -41vw;
+    }
+    .botonDivPlague2 {
+        margin-left: 10.8vw;
+    }
+    .botonPlague {
+        width: 20vw;
+        margin-top: 2vw;
+    }
+    .labName2 {
+        margin-left: -10.5vw !important;
+    }
+
+
+}   
+@media (max-width: 450px) {
+    .formPlague3 {
+        margin-left: 7vh !important;
+    }
+    .labName2 {
+        margin-right: 17.5vw !important;
+    }
+    .formPlague2 {
+        width: 70vw !important;
+    }
+    .inpDescPlague2 {
+        width: 55vw;
+    }
+    .labDesc2 {
+        margin-left: -13vw;
+    }
+    .botonDivPlague {
+        margin-left: 20vw;
+        display: flex;
+        flex-direction: column;
+    }
+    .botonPlague {
+        margin-bottom: 2vh !important;
+    }
+    .botonPlague {
+        width: 30vw;
+    }
+
+}    
+    

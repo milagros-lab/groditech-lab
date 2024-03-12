@@ -1,0 +1,92 @@
+
+.container12{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 2vw 3vw;
+    
+    .contPadre {
+        background-color: white;
+        border-radius: 20px;
+        border: 1px solid rgb(214, 205, 205) ;
+        box-shadow: 10px 10px 30px 0px rgb(30, 29, 29);
+        margin: 1vw;
+        font-size:20px;
+       h3 {
+            padding: 10px;
+            background-color: rgb(214, 205, 205);
+            border-top-left-radius: 20px ;
+            border-top-right-radius: 20px;
+        }  
+    
+        .hijo {  
+            margin-top: 1vw;
+            display: flex;
+            text-align: center; 
+            justify-content: center;
+            
+        }
+        .botVerInver {
+            margin: 10px;
+            text-align: center;
+            margin-bottom: 1vw;
+            width: 40%;
+        }
+        .imgWhatsappInge {
+            width: 25px;
+            margin: 10px;
+        }
+    }
+    
+    
+}
+
+@media (max-width: 450px) {
+    .container12 {
+        display: flex !important;
+        flex-direction: column !important;
+        .hijo{
+            display: flex !important;
+            flex-direction: column !important;
+            font-size: 16px !important;
+            // text-align: left !important;
+            // margin-left: 30px;
+            padding-bottom: 1vw;
+            
+            p {
+                margin: 0 !important;
+            }
+        }
+        margin-top: 5vw;
+       .contPadre {
+           margin-bottom: 5vw;
+       }
+       .imgWhatsappInge {
+           width: 8%;
+       }
+       .botVerInver {
+           width: 60vw !important;
+           margin-bottom: 4vw !important;
+       }
+    } 
+    
+   
+}
+
+
+@media (min-width: 451px) and (max-width: 850px) {
+    .container12 {
+        display: flex !important;
+        flex-direction: column !important;
+        margin-top: 3vw;
+       .contPadre {
+           margin-bottom: 3vw;
+       }
+       .imgWhatsappInge {
+        width: 10%;
+    }
+    }
+    .botVerInver {
+        width: 30vw !important;
+        margin-bottom: 3vw !important;
+    }
+}

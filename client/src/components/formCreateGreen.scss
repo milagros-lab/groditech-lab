@@ -1,0 +1,246 @@
+.regGreen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+    text-align: center;   
+    padding-bottom: 5vh; 
+
+    .row{   
+        justify-content: center;        
+        
+        h3{
+            padding-top: 5vh;
+            padding-bottom: 3vh;
+            font-weight: 300;
+            color: #616060;
+        }
+    }      
+
+    .createInv { 
+        margin-top: 5vh;
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;        
+        background-color: rgba(240, 240, 240, 0.915);  
+        max-width: 45vw;
+        min-width: 40rem;
+        box-shadow: 1px 10px 30px 0px rgb(55, 54, 54);
+        border-radius: 20px;  
+        padding-left: 7vw;
+        padding-right: 6vw;
+        padding-bottom: 3vh;
+        padding-top: 1vh;      
+
+        .labelSalud{      
+            
+            .selectorSalud{         
+                height: 38px;
+                border: 1px solid rgb(159,179,57);
+                border-radius: 7px;        
+                // background-color: rgb(246,249,236);
+                transition: 0.3s all;
+                margin-top: 5px;
+                margin-bottom: 5px;
+            }
+        }
+
+        .selectorIng{
+            display: inline;             
+            margin-top: -1.5rem;
+            border: 1px solid rgb(159,179,57);
+            font-size: 14px;
+            padding: 5px;
+            width: 250px; 
+            height: 38px;
+            border-radius: 7px;        
+            background-color: rgb(246,249,236);
+            transition: 0.3s all;                 
+        }       
+        
+        p{ 
+            font-size: 16px;
+            margin-top: 1.5rem;
+            margin-bottom: -.5rem;
+            // color: #F7991D;
+            font-weight: bold;
+        }
+
+        label{
+            font-size: 16px;
+            font-weight: 300;
+            display: flex;
+            flex-direction: row;
+            margin-top: 1rem;
+            margin-bottom: 0.5rem;
+            justify-content: space-between;
+            text-align: left;
+            width: auto;
+            align-items: center;
+            line-height: 26px;
+            // color: #F7991D;
+        }
+
+        input{ 
+            width: 35vw;           
+            height: 40px;
+            border: 2px solid rgb(159,179,57);
+            border-radius: 6px;        
+            background-color: rgb(221,233,180);
+            transition: 0.3s all;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            margin-right: 1.5vw;  
+            padding-left: 7px;
+        }    
+        
+        input:focus{
+            outline-color: rgb(216, 141, 12);              
+        }   
+
+        ::placeholder{
+            color:rgb(124, 124, 124) !important;
+            font-weight: 400 !important;
+            font-size: 14px !important;
+            padding-left: 7px;
+        }        
+        
+        select{
+            background-color: rgb(221,233,180) !important;
+            margin-top: 3vh;
+            border-radius: 7px;
+            border: 2px solid rgb(159,179,57) !important;
+            font-size: 14px;
+            height: 30px;
+            padding: 5px;
+            width: 250px;    
+        }
+
+        select:focus{
+            outline: none;
+            color:rgb(97, 97, 97) !important;
+            overflow: hidden; 
+            
+        }
+
+        .botonesGreen{
+            width: 50%  !important;
+            display: flex !important;
+            justify-content: space-evenly !important;
+            margin-left: 25% !important;
+            margin-top: 1vh !important;
+            .botGrenEdit{
+                margin-left: 1.5vw;
+                margin-right: 1.5vw;
+            }             
+        }
+
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+        -webkit-appearance: none;        
+        }
+
+        /* Firefox */
+        input[type=number] {
+        -moz-appearance: textfield;
+        }
+
+        ::placeholder{
+            color: rgb(117,117,117, 0.6);
+        }
+    }   
+}
+
+hr{
+    margin-left: 3.8vw;
+    margin-right: 3.8vw;
+    height: 1px;
+    background-color: grey;
+    border: none;
+}
+
+//---------------------------- MEDIA QUERIES -------------------------------//
+@media screen and (min-width:501px) and (max-width: 900px){
+    .regGreen{
+             
+        .createInv {                        
+            p{ 
+                font-size: 16px;
+                margin-top: 1.5rem;
+                margin-bottom: -.5rem;
+            }
+                    
+            input{ 
+                width: 20rem;  
+            }    
+                     
+            select{               
+                width: 200px;    
+            }
+            .botonesGreen{
+                // // margin-left: 1.5vw !important;
+                // // flex-direction: column;
+                // width: 90% !important;
+                .botGrenEdit{
+                    margin-left: 6vw;
+                    margin-bottom: 4vw;
+                }
+            }  
+        }   
+    }
+    .botonCancCreateGreen {
+        margin-right: 3vw;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .regGreen{
+    
+        .createInv {                 
+            max-width: 40vw;
+            min-width: 22rem;
+            
+            
+            p{ 
+                font-size: 16px;
+                margin-top: 1.5rem;
+                margin-bottom: -.5rem;
+            }
+
+            label{
+                font-size: 14px;
+            }
+                    
+            input{ 
+                width: 15rem;  
+            }    
+                     
+            select{
+                margin-left: 7vw;               
+                width: 15rem;    
+            }
+            .selectorIng {
+                margin-left: -2vw;
+            }
+            .botonesGreen{
+
+                margin-left:-1vw !important;
+
+                display: flex;
+
+                flex-direction: column;
+                // justify-content: space-between;
+                width: 100% !important;
+                // height: 15vh;
+                .botGrenEdit{
+
+                    margin-left: 7vw !important;
+                    margin-bottom: 3vw !important;
+
+                }
+            } 
+        }   
+    }    
+}
+

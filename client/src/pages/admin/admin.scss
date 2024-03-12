@@ -1,0 +1,59 @@
+
+.logoAdmin {
+    height: 35% !important;
+    width: 35% !important;
+    margin-top: 10vh !important;
+    margin-right: 5vw !important;
+    padding-bottom: 10vh !important;
+}
+.admin {
+    padding-bottom: 5vh;
+}
+.botonesAdmin {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5vh;
+}
+
+.botonAdmin {
+    width: 25vw;
+}
+
+@media (min-width: 451px) and (max-width: 850px) {
+    .logoAdmin {
+        // height: 45% !important;
+        width: 63% !important;
+        margin-top: 10vh !important;
+        margin-right: 5vw !important;
+        padding-bottom: 10vh !important;
+    }
+    .admin {
+        padding-bottom: 26.5vh;
+    }
+    .botonesAdmin {
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 5vh;
+    }
+    
+    .botonAdmin {
+        p{
+            font-size: 20px;
+        }
+
+    width: 25vw;
+    }
+}
+
+@media (max-width: 450px) {
+    .botonAdmin2 {
+        width: 60vw !important;
+        margin-bottom: 2vh;
+
+    }
+    .botonesAdmin {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

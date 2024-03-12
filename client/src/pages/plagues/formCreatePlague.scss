@@ -1,0 +1,95 @@
+.formPlague {
+    display: flex;
+    flex-direction: column;
+    margin-top: 8vh;
+    background-color: rgba(240, 227, 227, 0.9);
+    border-radius: 10px;
+    width: 60%;
+    margin-left: 43vh;
+    padding-top: 5vh;
+    padding-bottom: 4vh;
+    box-shadow: 1px 10px 30px 0px grey;
+}
+.enunPlaga {
+    justify-content: center;        
+    
+    h3{
+        padding-top: 5vh;
+        font-weight: 300;
+        color: #616060;
+    }
+}  
+
+.labDesc {
+    margin-left: -35vw;
+    margin-top: 5vh;
+}
+.labName {
+    margin-right: 1vw;
+}
+.inpNamePlague {
+    background-color: rgb(221, 233, 180);
+    border-radius: 10px;
+    border: solid 1px gray;
+    padding: 5px;
+}
+.inpDescPlague {
+    background-color: rgb(221, 233, 180);
+    border-radius: 10px;
+    border: solid 1px gray;
+    padding: 5px;
+}
+.botonDivPlague2 {
+    margin-top: 2vh;
+    width: 25vw;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 17vw;
+}
+@media (min-width: 451px) and (max-width: 850px) {
+    .formPlague {
+        margin-left: 15vh !important;
+    }
+    .inpDescPlague {
+        width: 44vw;
+    }
+    .labDesc {
+        margin-left: -21vw;
+    }
+    .botonDivPlague {
+        margin-left: 11vw !important;
+    }
+    .botonCancPlaga {
+        margin-right: 5vw !important;
+    }
+
+
+}   
+@media (max-width: 450px) {
+    .formPlague {
+        margin-left: 7vh !important;
+    }
+    .labName {
+        margin-left: -9vw !important;
+    }
+    .formPlague {
+        width: 80vw !important;
+    }
+    .inpDescPlague {
+        width: 55vw;
+    }
+    .labDesc {
+        margin-left: -13vw;
+    }
+    .botonDivPlague {
+        // margin-left: 20vw;
+        display: flex;
+        flex-direction: column;
+    }
+    .botonCancPlaga {
+        margin-bottom: 2vh !important;
+        width: 30vw;
+    }
+
+}    
+    

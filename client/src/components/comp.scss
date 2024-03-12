@@ -1,0 +1,341 @@
+
+// .img {
+//     height: 30px;
+// }
+
+// .ConInternas {
+//     border: 2px solid green;
+//     height: 100%;
+//     width: 30%;
+//     padding: 20px;
+//     text-align: center;
+// }
+
+//_________________ ESTILO CREAR INGENIERO _________________
+.registerIng {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 6vh auto;
+    .fromEngineer {
+        border: 2px solid white;
+        box-shadow: 1px 10px 30px 0px gray;
+        width: 70%;
+        padding: 2vw;
+        border-radius: 10px;
+        background-color: white;   
+    }
+    input {
+        background-color: RGB(221,233,180);
+        margin: 10px !important;
+        border-radius: 10px;
+        border: solid 1px gray;
+        padding: 5px;
+        margin: 30px 15px;
+        width: 95%;
+        
+    }
+    ::placeholder {
+        padding-left: 10px;
+    }
+    // button {
+    //     width: 95%;
+    //     margin: 5px;
+    // }
+
+
+
+
+
+
+.ConInternas {
+    border: 2px solid green;
+    height: 100%;
+    width: 30%;
+    padding: 20px;
+    text-align: center;
+}
+.regis{
+    background-color: RGB(254,250,245) ;
+    height: 80vh;
+    .regis2 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        .regis3 {
+            border: 2px solid white;
+            box-shadow: 1px 10px 30px 0px gray;
+            width: 50%;
+            height: 50vh;
+            padding: 4vw;
+            border-radius: 10px;
+            background-color: white;
+        }
+    }
+}}
+
+
+//---------------- ESTILOS CREACION INVERNADERO -----------------   //
+h3{
+    display: flex;
+
+    margin-top: -3vh;
+    padding-bottom: 1vh;
+    justify-content: center;
+
+}
+// .regGreen{
+//     .regGreen2.register2{
+//         .regGreen3.register3 {
+//             padding: 1vw;
+            
+
+
+
+
+//---------------- ESTILOS CREACION INVERNADERO -----------------   //
+
+
+
+
+
+
+
+// -------------- ESTILOS EDICION INVERNADERO -------------------------
+
+.editGreenContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+    text-align: center;
+    background-color: rgb(254,250,245);
+     
+
+    .row{   
+        justify-content: center;        
+        
+        h3{
+            padding-top: 5vh;
+            padding-bottom: 3vh;
+            font-weight: lighter;
+            color: #616060;
+        }
+    }  
+    
+
+    .editGreenhouse { 
+        display: flex;
+        flex-direction: column;
+        align-items: center;        
+        background-color: #fafafa;    
+        width: 43vw;
+        border: 2px solid white;
+        box-shadow: 1px 10px 30px 0px gray;
+        border-radius: 20px;        
+
+        .labelSalud{
+            // width: 30vw;                            
+            height: 38px;
+            align-items: center;
+            justify-content: space-around;
+            .selectorSalud{              
+                                    
+                height: 38px;
+                border: 1px solid rgb(159,179,57);
+                border-radius: 7px;        
+                background-color: rgb(246,249,236);
+                transition: 0.3s all;
+                margin-top: 5px;
+                margin-bottom: 5px;
+                margin-right: 8vw;
+                margin-left: -1vw;
+            }
+        } 
+
+        p{                
+            font-weight: 100;
+            font-size: 16px;
+            margin-top: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        button{
+            width: 200px;
+            margin-top: .5vh;
+            margin-bottom: 2vh;
+            margin-left: 1.5vw;
+            margin-right: 1.5vw;
+            background-color: rgb(250,155,29);
+            border: 1px solid RGB(250,137,0);
+            border-radius: 7px;
+            color: white;
+            transition: 0.3s;            
+        }
+        
+        button:hover{
+            background-color: rgba(125, 192, 83, 0.974);
+            border: 1px solid rgb(250,137,0);
+            border-radius: 7px;
+            color: white;
+        }
+
+        .selectorIng{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;            
+            align-items: center;            
+            
+        }
+
+        label{
+            font-size: 16px;
+            font-weight: 100;
+            display: flex;
+            flex-direction: row;
+            margin: 10px;
+            justify-content: right;
+            text-align: left;
+            width: 41vw;
+            align-items: center;
+            line-height: 26px; 
+        }          
+
+        input{                  
+            // flex: 0 0 500px;
+            width: 30vw;
+            margin-left: 25px;                    
+            height: 38px;
+            border: 1px solid rgb(159,179,57);
+            border-radius: 7px;        
+            background-color: rgb(246,249,236);
+            transition: 0.3s all;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            margin-right: 1vw;
+        }
+        select:focus{
+            outline: none;
+            color: rgb(156, 146, 146);
+            overflow: hidden; 
+        } 
+        select{
+            margin-top: 3vh;       
+            background: transparent;
+            border-radius: 7px;
+            border: 1px solid rgb(159,179,57);
+            font-size: 14px;
+            height: 30px;
+            padding: 5px;
+            width: 250px;
+                              
+        }
+        
+        .eSelIng{
+            margin-top: 1vh;           
+        }
+
+        /* Chrome, Safari, Edge, Opera */
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+        -webkit-appearance: none;        
+        }
+
+        /* Firefox */
+        input[type=number] {
+        -moz-appearance: textfield;
+        }
+
+        ::placeholder{
+            color: rgb(117,117,117, 0.6);
+        }
+
+
+
+    }
+        
+        
+
+       
+}
+
+// ---------------------------MEDIAS QUERIES----------------------------------
+
+
+// ---------------MEDIAS QUERIES EDITAR INVERNADERO---------------
+
+@media (min-width: 300px) and (max-width: 755px) {
+    .editGreenContainer{       
+
+        .row{   
+        justify-content: center;        
+        // width: 100vw;
+            h3{
+                padding-top: 2vh;
+                padding-bottom: 2vh;
+                font-weight: lighter;
+                color: #616060;
+            }
+        }
+        
+        
+        .editGreenhouse {
+            margin-bottom: 2vh;
+            width: 90vw;
+
+            
+            label{ 
+                color: rgb(117,117,117, 0.6);
+                width: 82vw;               
+                align-items: center;
+                font-size: small; 
+                margin-right: 10vw;                
+            }
+            p{
+                width: 82vw;
+                margin-top: 2vh; 
+                                 
+            }
+            input{                
+                width: 45vw;        
+                height: 40px;                
+            }
+            
+            input::-webkit-outer-spin-button,
+            input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+
+            }
+            input[type=number] {
+            -moz-appearance: textfield;
+            }
+
+            ::placeholder{
+                color: rgb(117,117,117, 0.6);
+            }
+
+            button {
+                margin: 10px;
+                padding: 10px 30px 10px 30px;
+                text-align: center;
+                border-radius: 20px;
+                width: 35%;
+                background: -moz-linear-gradient(top, #FA9B1D 0%, #F7991D 64%, #CC7E18 100%);
+                background: -webkit-linear-gradient(top, #FA9B1D 0%, #F7991D 64%, #CC7E18 100%);
+                background: linear-gradient(to bottom, #FA9B1D 0%, #F7991D 64%, #CC7E18 100%);
+                border: 1px solid RGB(250,155,29);
+                transition: all 0.25s ease;
+            }
+        
+            button:hover {
+                border: 1px solid gray;
+                background: #6C9628;
+                background: -moz-linear-gradient(top, #6C9628 0%, #79A82D 64%, #88BC32 100%);
+                background: -webkit-linear-gradient(top, #6C9628 0%, #79A82D 64%, #88BC32 100%);
+                background: linear-gradient(to bottom, #6C9628 0%, #79A82D 64%, #88BC32 100%);
+                box-shadow: 0px 0px 12px 2px gray;
+                color: white;
+            }
+        }
+    }
+};    

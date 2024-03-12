@@ -1,0 +1,291 @@
+.enunciado1 {
+    margin-top: 10vh !important;
+}
+.form {
+    margin-top: 13vh !important;
+    box-shadow: 0px 10px 30px 0px rgb(10, 10, 10);
+    border-radius: 10px !important;
+    margin: 15vh auto !important;
+    width: 50%;
+    background-color: rgba(240, 240, 240, 0.915); 
+}
+.divBoton {
+    width: 50% !important;
+    display: flex !important;
+    justify-content: space-evenly !important;
+    margin-left: 25% !important;
+    margin-top: 1vh !important;
+}
+.boton {
+    padding: 10px 30px 10px 30px !important;
+    background: -moz-linear-gradient(top, #FA9B1D 0%, #F7991D 64%, #CC7E18 100%);
+    background: -webkit-linear-gradient(top, #FA9B1D 0%, #F7991D 64%, #CC7E18 100%);
+    background: linear-gradient(to bottom, #FA9B1D 0%, #F7991D 64%, #CC7E18 100%);
+    border: 1px solid RGB(250,155,29);
+    transition: all 0.25s ease;
+    margin-bottom: 3vh;
+}
+.boton:hover {
+    border: 1px solid gray;
+    background: #6C9628;
+    background: -moz-linear-gradient(top, #6C9628 0%, #79A82D 64%, #88BC32 100%);
+    background: -webkit-linear-gradient(top, #6C9628 0%, #79A82D 64%, #88BC32 100%);
+    background: linear-gradient(to bottom, #6C9628 0%, #79A82D 64%, #88BC32 100%);
+    box-shadow: 0px 0px 12px 2px gray;
+    color: white;
+}
+.inpEdit {
+    width: 70%;
+    margin-left: 20px;
+    padding: 10px ;
+    border: 2px solid rgb(171, 189, 82);
+    border-radius: 6px;
+    height: 40px;
+    background-color: rgb(221,233,180);
+}
+.labEdit {
+    margin-left: 10px;
+    font-weight: 500;
+}
+.enunciado {
+    margin-top: 3vh;
+    margin-bottom: -2vh;
+}
+.divCampos {
+    text-align: start;
+    width: 70%;
+    margin-top: 2vh;
+    margin: 20px auto;
+    .name {
+        margin-left: 23px;
+    }
+    .lastName {
+        margin-left: 23px;
+    }
+    .dni {
+        margin-left: 56px !important;
+    }
+    .email {
+        margin-left: 44px !important;
+    }
+    .tel {
+        margin-left: 22px !important;
+    }
+}
+.divInputFile{
+    padding: 10px;
+    margin-left: 140px;
+    font-weight: 500;
+    .upFile {
+        width:30% !important;
+        height: 35px;
+        background-color: none;
+        align-items: center;
+        display: flex;
+        margin-top: -5px;
+        margin-left: 20px;
+        border-radius: 10px;
+        border: solid 1px #F99A1D;
+        resize: none;
+        text-align: left;
+        &:hover {
+            background-color: #F99A1D;
+        }
+        .imgUpFile {
+            width: 14%;
+            padding: 7px;
+            margin-left: 15px;
+        }
+        .inputUpFile{
+            width: 25% !important;
+            height: 40px;
+            margin: 0 !important;
+            opacity: 0;
+            overflow: hidden;
+            position: absolute;
+            cursor: pointer;
+            background-color: white
+        }
+        .spnUpImg {
+            color: #000;
+            text-decoration: none;
+        }
+    }
+
+}
+.botonArriba {
+    padding: 5px 15px 5px 15px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: rgb(250,155,29);
+    border: 1px solid rgb(250,155,29);
+}
+.botonesArriba {
+    margin-left: 30vw;
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: -7vh;
+}
+.imgUser {
+    margin-top: -9vh;
+    margin-bottom: 1vh;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    box-shadow: 1px 4px 15px 0px gray;
+    background-position: center;
+    background-size: cover !important;
+}
+
+@media (max-width: 450px) {
+    .form {
+        width: 95% !important;
+    }
+    .divCampos {
+        margin-left: 8vw;
+        width: 80%;
+        margin-left: 5vw;
+        .name {
+            margin-left: 19px;
+            width: 100%;
+        }
+        .lastName {
+            margin-left: 19px;
+        }
+        .dni {
+            margin-left: 19px !important;
+        }
+        .email {
+            margin-left: 19px !important;
+        }
+        .tel {
+            margin-left: 19px !important;
+        }
+        .labEdit {
+            
+            margin-left: 19px;
+        }
+    }
+    .divInputFile {
+        margin-left: 30px !important;
+        .upFile {
+             width: 55% !important;
+            .inputUpFile {
+                width: 50% !important;
+            }
+            .imgUpFile {
+                width: 30px;
+            }
+        }
+    }
+  
+    .labEdit {
+        margin-right: 0%;
+    }
+    .inpEdit {
+        width: 100%;
+    }
+    .inpFoto {
+        width: 100%;
+    }
+    .boton {
+        margin-left: 5vw;
+        margin-right: 0%;
+    }
+    .imgUser {
+        width: 100px;
+        height: 100px;
+        // background-position: center !important;
+        background-size: cover !important;
+    }
+    .divBoton {
+      margin-left: 4vw !important;
+      margin-bottom: 4vh;
+      flex-direction: column;
+      width: 86% !important;
+    }
+    .form {
+        margin-left: 5vw;
+        margin-top: 5vh;
+        width: 90%;
+    }
+    
+}
+
+@media (min-width: 451px) and (max-width: 1000px) {
+
+    .form {
+        // margin: 0 !important;
+        width: 95% !important;
+        
+    }
+    .divCampos {
+        margin-left: 8vw;
+        width: 80%;
+        margin-left: 7.5vw;
+        .name {
+            margin-left: 9px;
+            width: 100%;
+        }
+        .lastName {
+            margin-left: 9px;
+        }
+        .dni {
+            margin-left: 9px !important;
+        }
+        .email {
+            margin-left: 9px !important;
+        }
+        .tel {
+            margin-left: 9px !important;
+        }
+        .labEdit {
+            
+            margin-left: 9px;
+        }
+        .direccion {
+            margin-left: 9px !important;
+        }
+    }
+    .divInputFile {
+        margin-left: 56px !important;
+        .upFile {
+            width: 26%;
+            .imgUpFile {
+                width: 20%;
+            }
+        }
+    }
+    .labEdit {
+        margin-right: 0%;
+    }
+    .inpEdit {
+        width: 100%;
+    }
+    .inpFoto {
+        width: 100%;
+    }
+    .boton {
+        width: 30vw;
+        margin-left: 5vw;
+        margin-right: 0%;
+    }
+    .imgUser {
+        width: 100px;
+        height: 100px;
+        margin-top: -6vh;
+    }
+    .divBoton {
+      margin-left: 20vw !important;
+      margin-bottom: 4vh;
+    }
+    .form {
+        margin-left: 5vw;
+        margin-top: 5vh;
+        width: 90%;
+    }
+
+    
+
+}

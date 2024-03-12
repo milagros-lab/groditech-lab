@@ -1,0 +1,325 @@
+.login{
+    .login2.register2{
+        .login3.register3 {
+            padding: 1vw;
+            padding-bottom: 1vw;
+        }
+    }
+    .inpLogin {
+        margin: 15px 10px !important;
+        width: 40% !important;  
+    }
+    .logoReg {
+        height: 35% !important;
+        width: 35% !important;
+        margin: 2vw !important;
+    }
+    .textRegi {
+        width: 82% !important;
+    }
+}
+
+
+.login {
+    background-color: rgb(254,250,245) ;
+    height: 100vh;
+    .login2 {
+        margin-top: 0vh !important;
+        
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        .login3 {
+            border: none !important;
+            box-shadow: 0px 10px 30px 0px rgb(10, 10, 10) !important;
+            width: 50%;
+            padding: 1vw;
+            border-radius: 10px;
+            background-color: white;
+        }
+    }
+    .logoLog {
+        height: 40%;
+        width: 40%;
+        margin: 3vw;
+    }
+    .inpLogin {
+        background-color: rgb(221,233,180);
+        margin: 10px;
+        border: 2px solid rgb(159,179,57);
+        border-radius: 6px;
+        padding: 5px;
+        margin: 30px 15px;
+        &:focus {
+            outline-color: rgb(216, 141, 12);  
+        }
+        
+    }
+    ::placeholder {
+        padding-left: 10px;
+        color: rgb(94, 94, 94);
+    }
+    .textRegi {
+        width: 80%;
+        background-color: rgb(221,233,180);
+        margin: 10px;
+        border: 2px solid rgb(159,179,57);
+        border-radius: 6px;
+        padding: 5px;
+        resize: none;
+        &:focus {
+            outline-color: rgb(216, 141, 12);  
+        }
+    }
+    .divInputFile{
+        padding: 10px;
+        margin-left: 75px;
+        .upFile {
+            width: 25%;
+
+            height: 35px;
+            background-color: none;
+            align-items: center;
+            display: flex;
+            margin-top: -5px;
+            margin-left: 20px;
+            border-radius: 10px;
+            border: solid 1px #F99A1D;
+            resize: none;
+            text-align: left;
+            &:hover {
+                background-color: #F99A1D;
+            }
+            .imgUpFile {
+                width: 15%;
+                padding: 7px;
+                margin-left: 15px;
+            }
+            .inputUpFile{
+                width: 22% !important;
+                height: 40px;
+                margin: 0 !important;
+                opacity: 0;
+                overflow: hidden;
+                position: absolute;
+                cursor: pointer;
+                background-color: white
+            }
+            .spnUpImg {
+                color: #000;
+                text-decoration: none;
+            }
+        }
+    }
+    
+    p {
+        color: red;
+    }
+    h1 {
+        font-weight: lighter;
+        font-size: 3vw;
+        margin: 0;
+    }
+    hr {
+       border: 0 none rgb(108, 150, 40);
+       border-top: 1px solid rgb(108, 150, 40);
+       background-color: rgb(108, 150, 40);
+       opacity: 0.4;
+
+    }
+    span {
+        color: rgb(158, 158, 158);
+        text-decoration: underline rgb(158, 158, 158);
+        
+    }
+    span:hover {
+        color: rgb(99, 99, 99);
+        
+    }
+}
+
+@media (max-width: 450px) {
+    .login {
+        .login2 {
+            
+            .login3 {
+                width: 90%;
+                margin-top: 8% !important;
+            }
+        }
+        .logoLog {
+            margin-top: 10vh !important ;
+            width: 95% !important;
+        }
+        .inpLogin {
+            width: 85%;
+            margin: 20px 0;
+        }
+        h1  {
+            margin: 30px 0;
+            font-size: 12vw;
+        }
+        .botonLogin {
+            margin: 35px 0;
+            width: 85%;
+            border-radius: 10px;
+            padding: 5px;
+        }
+        .divInputFile {
+            margin-left: 15px   !important;
+            margin-bottom: -3vh;
+            .upFile {
+                width: 55%;
+                .inputUpFile {
+                    
+                    width: 50% !important;
+                    left: 160px !important;
+                } 
+            }
+            .imgUpFile {
+                width: 18% !important;
+                margin-left: 9px !important;
+            }
+            
+        }
+        .textRegi {
+            width: 85% !important;
+        }
+    }
+    .login {
+        .login2.register2 {
+            .login3.register3 {
+                width: 90%;
+                padding-bottom: 18px;
+                margin-bottom: 24px;
+            }
+        }
+        .inpLogin {
+            width: 85% !important;
+            
+        }
+        .logoReg {
+            margin-top: 2vh !important ;
+            width: 85% !important;
+        }
+        .botonLogin {
+            margin: 15px 0;
+        }
+    }
+ 
+}
+
+@media (min-width: 451px) and (max-width: 850px) {
+    .login {
+        .login2 {
+            .login3 {
+                width: 90%;
+                margin-top: 10%;
+            }
+        }
+        .logoLog {
+            margin-top: 10vh !important;
+            width: 80% !important;
+        }
+        .inpLogin {
+            width: 85%;
+            margin: 20px 0;
+        }
+        h1  {
+            margin: 30px 0;
+            font-size: 8vw;
+        }
+        .botonLogin {
+            margin: 35px 0;
+            width: 85%;
+            border-radius: 10px;
+            padding: 5px;
+        }
+        .divInputFile {
+            margin-left: 98px !important;
+            .upFile {
+                width: 35%;
+                .inputUpFile {
+                    width: 30% !important;
+                    left: 250px !important;
+                } 
+            }
+            .imgUpFile {
+                width: 18% !important;
+                margin-left: 9px !important;
+            }
+            
+        }
+    }
+
+    .login {
+        .login2.register2 {
+            .login3.register3 {
+                width: 90%;
+                margin-top: 5%;
+            }
+        }
+        .inpLogin {
+            width: 70% !important;
+            
+        }
+        .textRegi {
+            width: 70% !important;
+        }
+        .logoReg {
+            margin-top: 4vh !important ;
+            width: 75% !important;
+        }
+        .botonLogin {
+            margin: 15px 0;
+            width: 35%;
+            
+        }
+    }
+   
+  }
+
+  
+@media (min-width: 851px) and (max-width: 1024px) {
+    .login {
+        .login2 {
+            .login3 {
+                width: 80%;
+                margin-top: 2%;
+                padding: 1vw;
+            }
+        }
+        img {
+            margin-top: 5vh;
+            width: 60%;
+        }
+        .inpLogin {
+            width: 85%;
+            margin: 20px 0;
+        }
+        h1  {
+            margin: 30px 0;
+            font-size: 6vw;
+        }
+        .botonLogin {
+            margin: 35px 0;
+            width: 35%;
+            border-radius: 10px;
+            padding: 5px;
+        }
+    }
+    .login {
+        .login2.register2 {
+            .logoReg {
+                margin-top: 2vh !important ;
+                width: 50% !important;
+            }
+            .botonLogin {
+                width: 30% !important;
+                margin-left: 60px;
+                
+            }
+        }
+    
+    }
+}

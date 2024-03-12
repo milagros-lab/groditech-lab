@@ -1,0 +1,227 @@
+body {
+    background-color: RGB(254,250,245) ;
+}
+
+.h1oneGreen {
+    margin: 30px 0;
+    margin-bottom: 20px !important;
+    font-size: 3em;
+    // font-family: Georgia, 'Times New Roman', Times, serif;
+    box-shadow: 0px 10px 30px 0px rgb(10, 10, 10);
+    border-radius: 8px;
+    color: green;
+    text-shadow: 1px 1px 1px rgb(10, 10, 10);   
+}
+
+.botonGreenhouse {
+    margin: 0 10px 30px 10px;
+    padding: 10px 30px 10px 30px;
+    width: 20%;
+}
+
+
+.infoGreen {
+    display: flex;
+    // margin-bottom: 4vw;
+    .internas {
+        // text-align: left;
+        width: 50%;
+        background-color: white;
+        border-radius: 20px;
+        margin-right: 20px;
+        border: 2px solid white;
+        box-shadow: 0px 10px 30px 0px rgb(10, 10, 10);
+        height: fit-content;
+        p{
+            padding: 10px;
+        }
+    }
+}
+.externas {
+    width: 50%;
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 20px;
+    border: 2px solid white;
+    box-shadow: 0px 10px 30px 0px rgb(10, 10, 10);
+    height: fit-content;
+}
+
+.infoInge {
+    border: 1px solid rgb(214, 205, 205) ;
+    border-radius: 20px;
+    box-shadow: 0px 10px 30px 0px rgb(10, 10, 10);
+    background-color: white;
+    margin: 2vw 0;
+    .h2Inge {
+        background-color: rgb(214, 205, 205);
+        padding: 8px;
+        border-top-left-radius: 20px ;
+        border-top-right-radius: 20px;
+    }
+    div {
+        display: flex;
+        justify-content: space-evenly;
+        h3 {
+            font-weight: 300;
+            padding: 17px 0 20px 0;
+            font-size: 18px
+        }
+    }
+}
+
+@media (max-width: 450px) {
+    h1 {
+        font-size: 3em;
+    }
+    .botonGreenhouse {
+        width: 80vw;
+    }
+
+    .infoGreen {
+        display: flex;
+        flex-direction: column;
+       
+        .internas {
+            width: 100%;
+            margin-bottom: 5vw;
+            .ConInter{
+                padding: 5px 0;
+            }
+        }
+        .externas {
+            width: 100%;
+            margin-left: 0;
+            margin-bottom: 6vw;
+            .ConExter {
+                padding: 5px 0;
+                .divMov{
+                  display: block !important;
+                  .divTemp {
+                    border-bottom: 1px solid rgba(177, 177, 177, 0.548) !important;
+                    margin: 0 30px;
+                  }
+                  .temDay {
+                    font-size: 60px;
+                    margin-bottom:-8px;
+                  }
+                  .temMaxColor{
+                      margin-bottom: 0;
+                  }
+                  .borderDivDate {
+                      border-right: none;
+                  }
+                   
+                 }
+                 .divLocation{
+                     .locationName{
+                         margin-top: 15px;
+                     }
+                    text-align: center !important;
+                    display: block !important;
+                    .divIconMov { 
+                        display: block !important; 
+                    }
+                }
+            }
+          
+            .divDateMov {
+                font-size: 15px !important;
+            }
+        }
+    }
+
+    .infoInge {
+        margin-top: 18px;
+        div {
+            display: flex;
+            flex-direction: column;
+            
+            h3 {
+                padding: 4px 0;
+            }
+        }
+        img{
+            width: 24px;
+        }
+    }
+ 
+}
+
+@media (min-width: 451px) and (max-width: 850px) {
+    .h1oneGreen {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .botonGreenhouse {
+        width: 43vw;
+    }
+
+    .infoGreen {
+        display: flex;
+        flex-direction: column;
+       
+        .internas {
+            width: 90%;
+            margin: 0 auto;
+            margin-bottom: 5vw;
+            .ConInter{
+                padding: 5px 0;
+            }
+        }
+        .externas {
+            width: 90%;
+            margin: 0 auto 5vw auto;
+            // margin-left: 0;
+            .ConExter {
+                padding: 5px 0;
+                .divMov{
+                  display: block !important;
+                  .divTemp {
+                    border-bottom: 1px solid rgba(177, 177, 177, 0.548) !important;
+                    margin: 0 30px;
+                  }
+                  .temDay {
+                    font-size: 60px;
+                    margin-bottom:-8px;
+                  }
+                  .temMaxColor{
+                      margin-bottom: 0;
+                  }
+                  .borderDivDate {
+                      border-right: none;
+                  }
+                   
+                 }
+                 .divLocation{
+                     .locationName{
+                         margin-top: 15px;
+                     }
+                    text-align: center !important;
+                    display: block !important;
+                    .divIconMov { 
+                        display: block !important; 
+                    }
+                }
+            }
+          
+            .divDateMov {
+                font-size: 18px !important;
+            }
+        }
+
+    }
+    .infoInge {
+        width: 90%;
+        margin: 4px auto;
+        div{
+            display: flex;
+            flex-direction: column;
+            h3{
+                font-size: 22px;
+                padding: 6px;
+            }
+        }
+
+    }
+}

@@ -1,0 +1,107 @@
+body {
+    background-color: RGB(254,250,245) ;
+}
+.divTablet {
+    padding-top: 50px;
+}
+.farmer {
+    margin: 1vw 0;
+    text-align: center;
+    
+    h1 {
+        font-weight: lighter;
+    }
+    
+}
+
+.farmer2 {
+    margin-top: 40px;
+      
+}
+
+
+.imgPlaga {
+    width: 60px;
+    margin-left: 68vw;
+    margin-top: -5vh;
+}
+
+.search svg {
+    margin-left: -1.9rem;
+    margin-top: -0.1rem;
+}
+
+.imgModal {
+    width: 70%;
+}
+
+.botonNormal {
+    margin: 0 10px;
+}
+.imgWhatsapp {
+    width: 1.5vw;
+    margin-left: 10px;
+    
+}
+
+@media (max-width: 450px) {
+    .farmer2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .botonNormal {
+            width: 80vw !important;
+            margin: 10px 0;
+        }   
+    }
+
+
+    
+    .imgPlaga {
+        width: 74px;
+        margin-left: 37vw;
+        margin-top: 1vh;
+    }
+    .imgModal {
+        width: 100%;
+    } 
+
+    .modal-content{
+        resize: both;
+        overflow: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .imgWhatsapp {
+        width: 5.5vw !important;
+        margin-left: 13px !important;
+        
+    }
+ 
+}
+
+@media (min-width: 451px) and (max-width: 850px) {
+    .farmer2 {
+        .botonNormal {
+            width: 35% !important;
+            margin: 0 20px;
+        }
+    }
+    .imgPlaga {
+        width: 60px;
+        margin-left: 81vw;
+        margin-bottom: -11vh;
+    }
+    .imgModal {
+        width: 100%;
+    }
+    .imgWhatsapp {
+        width: 3.5vw !important;
+        margin-left: 10px !important;
+        
+    }
+
+}

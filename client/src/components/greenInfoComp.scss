@@ -1,0 +1,119 @@
+body {
+    background-color: RGB(254,250,245);
+  
+    .ConInter {
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+        .imgGreenInfoComp {
+            margin: 10px 0;
+            height: 30px;
+            border:2px solid black;
+            border-radius: 50%;
+            padding: 2px;
+        }
+        .situacion {
+            // border-bottom: 1px solid grey;
+            label {
+                font-size:large;
+            }
+            input {
+                margin: 0 10px;
+            }
+        }
+        p {
+            font-size:large;
+            border-radius: 10px;
+            box-shadow: 2px 8px 25px -5px gray;
+            padding: 5px;
+        }
+        
+    }
+    .iconosTiempo {
+        width: 45px;
+    }
+    .iconosTiempo2 {
+        width: 60px;
+        margin-right: 10px;
+    }
+    .spanDay {
+        width:19%;
+        text-align: left;
+    }
+    .ConExter {
+        font-size:large;
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+        .divDate1{
+            margin: 1vw 0;
+            .borderDivDate {
+                border-right: 1px solid rgb(158, 158, 158);
+                // margin: 20px 0px;
+                
+            }
+            margin-top: 30px;
+            border-radius: 10px;
+            box-shadow: 2px 8px 25px -5px gray;
+            // margin-top: 2vw;
+            .divTemp{
+                .temDay {
+                    font-size: 40px;
+                    font-weight: 300;
+                    // margin-bottom: 0;
+                }
+                .temMaxColor{
+                    color: red;
+                }
+                .temMinColor{
+                    color: blue;
+                }
+               
+                  
+            }
+           
+            .divLocation{
+                text-align: left !important;
+                .locationName {
+                    font-size: 20px;
+                    margin-top: 8px;
+                    font-weight: 500;
+                }
+                .locationDescription{
+                    // margin-bottom: 0px;
+                    font-style: italic;
+    
+                } 
+            }
+            .tempHour {
+                padding: 10px;
+            }
+            .divWeek{
+                display: flex;
+                flex-direction: row !important;
+                .divWeekCard {
+                    display: flex !important;
+                }
+            }
+        }
+        
+        .imgGreenInfoComp {
+            margin-top: 20px;
+            margin-bottom: 7px;
+            height: 30px;
+            border:2px solid black;
+            border-radius: 50%;
+            padding: 2px;
+        }
+        
+    }
+}
+
+@media (max-width: 450px) {
+    body {
+        .spanDay {
+        width: -1rem !important;
+        text-align: center;
+        }
+    }
+}

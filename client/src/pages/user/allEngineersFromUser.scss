@@ -1,0 +1,41 @@
+.engineer{
+    border: 1px solid rgb(214, 205, 205) ;
+    margin: 7vw auto;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 10px 30px 0px rgb(10, 10, 10);
+    width: 50%;
+    // margin-left: 10vw !important;
+}
+.nombreDivEngi {
+    background-color: rgb(214, 205, 205);
+    border-top-left-radius: 20px ;
+    border-top-right-radius: 20px;
+}
+.nombreEngi {
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+.datos {
+    margin-top: 2vh;
+    .datoshijos{
+        display: flex;
+        justify-content: space-around;
+    }
+}
+body{
+    text-align: center;
+}
+
+
+@media (max-width: 450px) {
+    .engineer {
+        width: 94%;
+        margin-left: 3vw !important;
+    }
+}
+@media (min-width: 451px) and (max-width: 850px) {
+    .engineer {
+        width: 70%;
+    }
+}

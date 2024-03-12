@@ -1,0 +1,51 @@
+.createGreenContainer {
+    display: flex !important;
+    align-items: center !important;
+    flex-direction: column !important;
+}
+.createGreenhouseAdmin {
+    width: 100% !important;
+    // border: 2px solid gray !important;
+    box-shadow: 1px 10px 30px 0px gray !important;
+    width: 50% !important;
+    padding: 4vw !important;
+    border-radius: 10px !important;
+    background-color: rgba(240, 227, 227, 0.9);
+    margin-bottom: 5vh;
+}
+.inputGreenAdmin {
+    background-color: rgb(221,233,180);
+        // margin: 10px;
+    border-radius: 10px;
+    border: solid 1px gray;
+    padding: 5px;
+    width: 40vw;
+    margin: 20px 0;
+}
+.createGreenAdmin {
+    display: flex !important;
+    align-items: center !important;
+    flex-direction: column !important;
+}
+.selectGreenAdmin {
+    margin-bottom: 3vh;       
+    background:  rgb(221,233,180);
+    border-radius: 7px;
+    border: 1px solid grey;
+    font-size: 14px;
+    height: 30px;
+    padding: 5px;
+    width: 200px;
+    overflow: hidden;
+}
+.selectGreenAdmin:focus {
+    outline: none;
+}
+.divBotonAdmin {
+    width: 30vw;
+    display: flex;
+    justify-content: space-evenly !important;
+}
+.lineaAdmi {
+    width: 40vw;
+}
